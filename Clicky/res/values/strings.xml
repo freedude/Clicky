@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Clicky</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_game_screen">GameScreen</string>
+    <string name="Start">Start</string>
+    <string name="Welcome_to_Clicky">Welcome to Clicky</string>
+    <string name="Options">Options</string>
+    <string name="SplashScreen">SplashScreen</string>
+    <string name="Score_0">Score=0</string>
+    <string name="HighScore_0">High Score = 0</string>
+    <string name="TODO">TODO</string>
+    <string name="GameOver">GameOver</string>
+    <string name="TryAgain">TryAgain</string>
+    <string name="HighScore_10">High Score</string>
+    <string name="Score">Score</string>
+    <string name="title_activity_options_screen">OptionsScreen</string>
+    <string name="Expert">Expert</string>
+    <string name="Normal">Normal</string>
+    <string name="DifficultyLevel">Difficulty Level</string>
+    <string name="Instructions">Instructions</string>
+    <string name="title_activity_instructions">Instructions</string>
+    <string name= "Guidelines">Welcome to Clicky!
+        
+Give your memory a workout with this fun colour picking game!
+All you have to do is pick the last colour that was displayed on the screen.
+Try setting a new high score everyday or playing in expert mode and see if you can improve your memory.</string>
+<string name = "Back">Back</string>
+
+</resources>

@@ -1,0 +1,67 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".OptionsScreen" >
+
+    <!-- Background Image -->
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:scaleType="fitXY" 
+        android:src="@drawable/creambackground" />
+
+    <!-- Difficulty Level -->
+
+    <!-- Button to turn on Expert Mode -->
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:height="70dp"
+        android:onClick="hardModeOn"
+        android:text="@string/Expert"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:width="200dp" />
+   
+	<!-- Difficulty Level Display -->
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageView1"
+        android:layout_alignTop="@+id/imageView1"
+        android:layout_marginTop="39dp"
+        android:text="@string/DifficultyLevel"
+        android:textColor="#FF0000"
+        android:textSize="30sp" />
+    
+     <!-- Button to turn on Normal mode -->
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/button1"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="72dp"
+        android:height="70dp"
+        android:onClick="hardModeOff"
+        android:text="@string/Normal"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:width="200dp" />
+
+</RelativeLayout>
